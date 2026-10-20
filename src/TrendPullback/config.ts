@@ -2,6 +2,8 @@ import { createStrategyConfigParser } from "@tradejs/strategy-kit/config";
 import type { StrategyConfig } from "@tradejs/types";
 
 export const defaultConfig = {
+  ENV: "BACKTEST",
+  MAKE_ORDERS: true,
   INTERVAL: "60" as const,
   ENABLE: true,
   MAX_LOSS_VALUE: 10,

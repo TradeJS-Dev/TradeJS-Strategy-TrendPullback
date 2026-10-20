@@ -54,3 +54,9 @@ test("independent reproducible presets differ only by execution interval", () =>
   assert.equal(trendPullback1hConfig.LONG.enable, true);
   assert.equal(trendPullback1hConfig.MAX_LOSS_VALUE, 10);
 });
+
+test("native runtime execution controls survive strict config resolution", () => {
+  const runtime = parseConfig({ ENV: "CRON", MAKE_ORDERS: false });
+  assert.equal(runtime.ENV, "CRON");
+  assert.equal(runtime.MAKE_ORDERS, false);
+});
