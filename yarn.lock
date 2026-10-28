@@ -412,20 +412,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tradejs/core@npm:3.1.28":
-  version: 3.1.28
-  resolution: "@tradejs/core@npm:3.1.28"
+"@tradejs/core@npm:^3.1.28 || ^3.1.29-beta.275":
+  version: 3.1.29-beta.282
+  resolution: "@tradejs/core@npm:3.1.29-beta.282"
   dependencies:
-    "@tradejs/types": "npm:^3.1.28"
+    "@tradejs/types": "npm:^3.1.29-beta.282"
     date-fns: "npm:^3.6.0"
     fast-technical-indicators: "npm:^1.1.4"
     klinecharts: "npm:10.0.0-alpha9"
     lodash: "npm:^4.18.1"
-  checksum: 10c0/4aa626871f92becb3ca2d473211d448bd053303fb5ae7a4733c10da3a753babc86954950376cf3f84cd5b3ddf7ba9542d00bf7c6aee81ded670c321fbb0f9dad
+  checksum: 10c0/76769388f9dcc3e7640fa178eba0ee73c0f7c604f279dc9068cb3bbdfa034a2afa169c05a89e40f32cb60c8fc254578143d8c84ce03c4d2ebe0988611931fdb9
   languageName: node
   linkType: hard
 
-"@tradejs/strategy-kit@npm:3.0.6":
+"@tradejs/strategy-kit@npm:^3.0.6":
   version: 3.0.6
   resolution: "@tradejs/strategy-kit@npm:3.0.6"
   peerDependencies:
@@ -439,9 +439,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tradejs/strategy-trend-pullback@workspace:."
   dependencies:
-    "@tradejs/core": "npm:3.1.28"
-    "@tradejs/strategy-kit": "npm:3.0.6"
-    "@tradejs/types": "npm:3.1.28"
+    "@tradejs/core": "npm:^3.1.28 || ^3.1.29-beta.275"
+    "@tradejs/strategy-kit": "npm:^3.0.6"
+    "@tradejs/types": "npm:^3.1.28 || ^3.1.29-beta.275"
     prettier: "npm:^3.6.2"
     tsup: "npm:^8.5.1"
     typescript: "npm:^5.9.2"
@@ -452,10 +452,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tradejs/types@npm:3.1.28, @tradejs/types@npm:^3.1.28":
-  version: 3.1.28
-  resolution: "@tradejs/types@npm:3.1.28"
-  checksum: 10c0/e350c8355e87eff29b05ed5b09a4d68f338bd5f4ee608aa7019ec39c4769a1b3276d871e4cc8ab85bdc21886b75b78169597b0c083cbdfa5b2c55c66d0deceb1
+"@tradejs/types@npm:^3.1.28 || ^3.1.29-beta.275, @tradejs/types@npm:^3.1.29-beta.282":
+  version: 3.1.29-beta.282
+  resolution: "@tradejs/types@npm:3.1.29-beta.282"
+  checksum: 10c0/cb123c535f048195f4afd19dac9033d7f5deba81ca25db40cb76a8a6103759f39fc54b18d047736185700a2259f8f8c2516ddcef5ac4c3edeee9181e831de3cc
   languageName: node
   linkType: hard
 
