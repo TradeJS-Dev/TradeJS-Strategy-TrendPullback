@@ -1,6 +1,6 @@
 {
   "name": "@tradejs/strategy-trend-pullback",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "EMA trend continuation after a timed RSI pullback and candle close confirmation for TradeJS.",
   "type": "module",
   "packageManager": "yarn@4.13.0",
