@@ -62,17 +62,10 @@ RSI и ATR считаются на интервале исполнения. По
 
 ## Подключение
 
-Для локального подключения соберите архив в каталоге `output` вашего `tradejs-project`. Из репозитория стратегии выполните:
+Установите опубликованный пакет в каталоге вашего TradeJS Project.
 
 ```sh
-yarn checks
-yarn pack --out ../tradejs-project/output/tradejs-strategy-trend-pullback.tgz
-```
-
-Затем в Project установите архив:
-
-```sh
-yarn add ./output/tradejs-strategy-trend-pullback.tgz
+yarn add --exact @tradejs/strategy-trend-pullback@0.1.1
 ```
 
 Все `@tradejs/*` зависимости пакета объявлены как `peerDependencies`, а точные версии исполнения выбирает Project. Поддерживаются стабильные `@tradejs/core` и `@tradejs/types` начиная с `3.1.28`, а также линия `3.1.29-beta` начиная с `3.1.29-beta.275`. Для `@tradejs/strategy-kit` требуется `^3.0.6`.
